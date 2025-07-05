@@ -1,6 +1,10 @@
 ---
 import { Button } from "@/components/ui/button";
+import Navbar from "../components/Navbar.astro";
+
 import "../styles/global.css";
+// import { Input } from "@/components/ui/input";
+// import { Image } from "astro:assets";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -16,12 +20,12 @@ import "../styles/global.css";
   </head>
 
   <body>
-		<!-- <h1 class="font-headings text-3xl">Hello worlds</h1> -->
-    <div class="grid place-items-center h-screen content-center">
+    <Navbar />
+
+    <!-- <div class="grid place-items-center h-screen content-center">
       <Button>Tailwind Button in Astro!</Button>
       <a href="/markdown-page" class="p-4 underline"
         >Markdown is also supported...</a
-      >
-    </div>
+      > -->
   </body>
 </html>

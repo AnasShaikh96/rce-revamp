@@ -1,0 +1,25 @@
+---
+import { Image } from "astro:assets";
+---
+
+<nav class="h-20 bg-black opacity-75">
+  <div class="h-full flex justify-between px-5 items-center">
+    <div>
+      <Image
+        height={54}
+        width={140}
+        src="/images/rceLogoLight.svg"
+        alt="Rce Logo Light"
+      />
+    </div>
+    <div>
+      <Image
+        class={"cursor-pointer"}
+        height={21}
+        width={30}
+        src="/images/hamburgerIconLight.svg"
+        alt="Hamburger Icon Light"
+      />
+    </div>
+  </div>
+</nav>
